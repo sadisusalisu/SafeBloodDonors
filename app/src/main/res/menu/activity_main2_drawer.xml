@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Benefit"
+
+            android:title="Benefit Of Donation" />
+        <item
+            android:id="@+id/HowTo"
+
+            android:title="How To Become A Donor" />
+        <item
+            android:id="@+id/BloodGroup"
+
+            android:title="Blood Group" />
+        <item
+            android:id="@+id/FAQs"
+
+            android:title="FAQs" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/AboutUs"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Us" />
+            <item
+                android:id="@+id/AboutApp"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About the App" />
+        </menu>
+    </item>
+
+</menu>

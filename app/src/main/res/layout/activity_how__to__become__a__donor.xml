@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="ng.org.ddhub.kanoblooddonation.How_To_Become_A_Donor">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There Are Many Benefit Blood Bonation Which Include:"
+        android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"
+
+            android:text="Improves heart health donating blood improves your overall cardiovascular health increased level of iron in the blood raises the chance of heart disease regularly donating blood helps males in particular to reduce the amount of iron in the blood this can reduce the chance of heart attack by 88 additionally regular blood donation can lower the risk of severe cardiovascular events such as stroke by 33"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+            android:textSize="17sp"
+        android:text="Enhances the production of new blood cells when blood is withdrawn the donor s body immediately begins to replenish the lost blood new cells are produced by marrow within 48 hours of donation and all of the red blood cells the donor loses during donation are completely replaced within one to two months therefore donating blood helps to stimulate the production of new blood cells this process of replenishment can help your body stay healthy and work more efficiently" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"
+            android:text="Burns calories donating blood on a regular basis can also improve fitness donating one pint of blood 450 ml burns 650 calories in donor s body"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"
+            android:text="Enhances feeling of well being in elderly people many elderly people who are in good health have reported feeling invigorated and reenergized by giving blood on a regular basis"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"
+            android:text="Reduces cancer risk give blood to help lower your risk of cancer according to the miller keystone blood center consistent blood donation is associated with lowered risks of cancers including liver lung colon stomach and throat cancers risk levels drop in correlation with how often participants donate blood"/> <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"
+            android:text="Saves lives by donating blood many lives are saved and hope is given to many whose situation may otherwise be hopeless blood donors give such patients a second lease of life"/> <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"
+            android:text="Brings joy to many when you donate blood you impact not only the patient whose life may depend on your donation but also all those who depend on that patient the entire community will benefit from he spirit of generosity"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

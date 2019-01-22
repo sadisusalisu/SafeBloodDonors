@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@color/Redfull"
+    tools:context="RequestBlood">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request for Blood "
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:paddingLeft="85dp"
+        android:paddingRight="85dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="6dp"
+        android:background="@color/white">
+
+    </View>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="19sp"
+    android:text="Patient Details"
+    android:layout_gravity="center"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:hint="   Name"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/oval"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:hint="__Age"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/oval"
+        android:layout_marginBottom="8dp"
+        />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:hint="  Treatment"
+        android:textSize="19sp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/oval"
+        android:layout_marginBottom="8dp"
+        />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:hint="  No of Unit"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/oval"
+        android:layout_marginBottom="8dp"
+        />
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:background="@color/white"
+            android:layout_marginTop="16dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:text="Select Blood Group"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            >
+       <Button
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="A+"
+           android:background="@drawable/rounded"
+
+           />
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="A-"
+                android:background="@drawable/rounded"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="B+"
+                android:background="@drawable/rounded"
+                android:layout_marginLeft="20dp"/>
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="B-"
+                android:background="@drawable/rounded"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded"
+                android:text="O+"
+
+                />
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rounded"
+                android:text="O-" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rounded"
+                android:text="AB+" />
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rounded"
+                android:text="AB-" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:text="Required Date"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </DatePicker>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:background="@color/white"
+            android:layout_marginTop="16dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:text="Patient Details"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:hint="  Hospital  Name"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/oval"
+            android:layout_marginBottom="8dp"
+            />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:hint="Attender`s contact number"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/oval"
+            android:layout_marginBottom="8dp"
+            />
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:hint="  Alternative contact number"
+            android:textSize="19sp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/oval"
+            android:layout_marginBottom="8dp"
+            />
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:hint="  Requested by"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/oval"
+            android:layout_marginBottom="8dp"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+           android:text="Send the Request"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

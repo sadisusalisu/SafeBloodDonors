@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "531074498065",
+    "firebase_url": "https://kano-blood-donation-9f98b.firebaseio.com",
+    "project_id": "kano-blood-donation-9f98b",
+    "storage_bucket": "kano-blood-donation-9f98b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531074498065:android:369e45c132b06f5d",
+        "android_client_info": {
+          "package_name": "ng.org.ddhub.kanoblooddonation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531074498065-1moo47ftmi0j5as7pmndvshqfv3ajpnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ng.org.ddhub.kanoblooddonation",
+            "certificate_hash": "e1476d6f857dbf61df51512864d48f8c08de248c"
+          }
+        },
+        {
+          "client_id": "531074498065-0vkf53chs5iagnps2lcbaoairqhk7epe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ng.org.ddhub.kanoblooddonation",
+            "certificate_hash": "3ab0d15c99408ff3330f8b416c393d1d2e9ececc"
+          }
+        },
+        {
+          "client_id": "531074498065-01qvhgsgu43vnljtihb8et0o6ba6pdin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYOhg5H78qQGM9kEyh80HIzyn9VWiR4TM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531074498065-01qvhgsgu43vnljtihb8et0o6ba6pdin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

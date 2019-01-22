@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ng.org.ddhub.kanoblooddonation.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+
+    <Button
+        android:id="@+id/btnGetBlood"
+        android:layout_width="110dp"
+        android:layout_height="140dp"
+        android:text="Get Blood"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/red"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:id="@+id/btnDonateBlood"
+        android:layout_width="117dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/red"
+        android:text="Donate Blood"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:text="Logout"
+        android:background="@color/Redfull"
+
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etUserPhone" type="id" />
+    <item name="etUserEmail" type="id" />
+    <item name="etUserPassword" type="id" />
+    <item name="etUserState" type="id" />
+    <item name="etUserAge" type="id" />
+</resources>

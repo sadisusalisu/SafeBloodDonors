@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="ng.org.ddhub.kanoblooddonation.ProfileActivity">
+
+
+    <ImageView
+        android:layout_marginTop="22dp"
+        android:id="@+id/ivProfilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher_round"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"/>
+
+
+
+    <TextView
+        android:id="@+id/tvProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:textSize="20sp"
+        android:text="Full Name:"/>
+
+    <TextView
+        android:id="@+id/tvProfilePhone"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:textSize="20sp"
+        android:text="Phone Number:"
+       />
+
+    <TextView
+        android:id="@+id/tvProfileEmail"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:textSize="20sp"
+       android:text="Email:"/>
+
+
+    <TextView
+        android:id="@+id/tvProfileBG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:textSize="20sp"
+        android:text="Blood Group:"/>
+
+
+    <TextView
+
+        android:id="@+id/tvProfileAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:textSize="20sp"
+        android:text=" Age:"/>
+
+
+    <TextView
+        android:id="@+id/tvProfileState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:text="State of Resident:"/>
+
+    <Button
+        android:id="@+id/btnProfileUpdate"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+
+        android:text="Edit"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
